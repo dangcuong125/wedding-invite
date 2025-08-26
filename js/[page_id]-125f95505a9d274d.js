@@ -230,7 +230,9 @@
             if (u) {
               var e,
                 t = new URLSearchParams(window.location.search).toString();
-              s.push("/s/".concat(i).concat(t ? "?".concat(t) : ""));
+              s.push(
+                "/wedding-invite/".concat(i).concat(t ? "?".concat(t) : "")
+              );
             }
             f(i),
               ((e = (0, a.Z)(
@@ -363,10 +365,12 @@
                   titleTemplate: "%s",
                   defaultTitle: "Đặng Cường & Khánh Huyền",
                   description: J,
-                  canonical: "".concat(O.Z.APP_URL, "/s/").concat(i),
+                  canonical: ""
+                    .concat(O.Z.APP_URL, "/wedding-invite/")
+                    .concat(i),
                   openGraph: {
                     type: "website",
-                    url: "".concat(O.Z.APP_URL, "/s/").concat(i),
+                    url: "".concat(O.Z.APP_URL, "/wedding-invite/").concat(i),
                     title: H + "",
                     description: J,
                     images: [{ url: F, width: 1200, height: 630, alt: H }],
