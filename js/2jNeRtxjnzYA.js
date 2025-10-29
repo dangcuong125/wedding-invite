@@ -17844,7 +17844,7 @@
           fontSize: 14,
           fontFamily: "Arial",
           selectedDate: new Date(),
-          selectedTime: new Date(),
+          selectedTime: new Date("2025-10-28T19:30:00"),
           zIndex: 0,
           locked: !1,
           direction: "horizontal",
